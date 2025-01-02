@@ -29,6 +29,20 @@ danceability, energy, key, loudness, mode, speechiness, acousticness, instrument
 - Genre dan Playlist:
 playlist_name, playlist_id, playlist_genre, playlist_subgenre.
 
+**Fungsi Subkelompok**
+- Genre Lagu: Genre (EDM, Latin, Pop, R&B, Rap, Rock) merupakan variabel target utama, dan setiap genre memiliki karakteristik unik berdasarkan fitur audio seperti danceability, energy, dan tempo.
+- Playlist Subgenre: Subgenre dapat memberikan informasi tambahan untuk mengelompokkan lagu berdasarkan tema atau suasana, yang mungkin lebih relevan untuk beberapa analisis.
+- Popularitas Lagu: Subkelompok lagu dengan skor track_popularity tinggi dapat menunjukkan pola tertentu, seperti lagu dengan energi atau danceability tinggi lebih cenderung populer.
+- Konteks Akustik: Lagu dengan nilai tinggi pada acousticness atau instrumentalness mungkin memiliki pola berbeda dibandingkan lagu dengan karakteristik sebaliknya.
+
+**Fungsi Tren dari Waktu ke Waktu**
+
+Tren waktu sangat penting dalam analisis dataset ini, terutama dalam konteks:
+
+- Tanggal Rilis Album ```track_album_release_date``` : Tren musik dapat berubah dari waktu ke waktu, dan genre tertentu mungkin lebih dominan pada periode tertentu. Lagu lama mungkin memiliki nilai popularity lebih rendah dibandingkan lagu yang dirilis baru-baru ini.
+- Perubahan Preferensi Audiens: Preferensi audiens terhadap atribut seperti energy atau tempo mungkin berubah seiring waktu.
+- Inovasi Musik: Inovasi dalam genre tertentu, seperti penggunaan elemen akustik yang lebih tinggi dalam Pop modern, dapat menjadi tren menarik untuk dieksplorasi.
+
 **Visualisasi Awal:**
 - Distribusi Popularitas Lagu
 
